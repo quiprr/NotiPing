@@ -38,26 +38,22 @@
 
 - (void)openGitHub
 {
-	NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ItHertzSoGood/notiping"] options:options completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ItHertzSoGood/notiping"] options:@{} completionHandler:nil];
 }
 
 - (void)openTwitter
 {
-	NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/quiprr"] options:options completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/quiprr"] options:@{} completionHandler:nil];
 }
 
 - (void)openWebsite
 {
-	NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://ametrine.dev/"] options:options completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://ametrine.dev/"] options:@{} completionHandler:nil];
 }
 
 - (void)openReddit
 {
-	NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://reddit.com/u/quiprr"] options:options completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://reddit.com/u/quiprr"] options:@{} completionHandler:nil];
 }
 
 @end
