@@ -1,0 +1,10 @@
+# ninja log v5
+0	104	1596321683717374682	.dragon/build/logos/Tweak.xm.mm	572cfa514e40292d
+104	409	1596321684018432451	.dragon/build/arm64e/Tweak.xm.mm.o	645b0af467c8216b
+104	411	1596321684020494824	.dragon/build/arm64/Tweak.xm.mm.o	eaeb8a56996d6db9
+409	594	1596321684204858260	.dragon/build/NotiPing.arm64e	815588495c4edff
+412	594	1596321684204763787	.dragon/build/NotiPing.arm64	8c99764b7b317246
+594	607	1596321684222036273	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/NotiPing.dylib.unsym	ccccd11fa7e428a7
+607	638	1596321684252959533	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/NotiPing.dylib.unsigned	3555e2b7813185a1
+638	660	1596321684274771612	.dragon/_/Library/MobileSubstrate/DynamicLibraries/NotiPing.dylib	384642c2c779cf48
+0	5	0	stage	e76a946b4996128a
