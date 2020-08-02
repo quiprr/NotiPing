@@ -1,5 +1,5 @@
 ---
-name: giveMeUAC Bug Report
+name: NotiPing Bug Report
 about: For bug reports, crashes, errors, unsupported versions, etc.
 title: ''
 labels: ''
@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Tell me about your setup:**  
-1.) What version of Windows 10 are you on?
+1.) What version of iOS are you on, and what device?
 
 **How can I recreate the issue?**
 1.) 
