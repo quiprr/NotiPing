@@ -3,6 +3,7 @@ name: NotiPing
 icmd: sbreload
 
 all:
+  targetvers: 13.0
   archs:
     - arm64
     - arm64e
@@ -10,7 +11,7 @@ all:
 NotiPing:
   type: tweak
   logos_files:
-    - Tweak.xm
+    - "Tweak.xm"
   frameworks:
     ['UIKit']
 
@@ -19,3 +20,5 @@ NotiPingPrefs:
   dir: NotiPingPrefs
   objc_files:
     - NPIRootListController.m
+    - NPISubPageController.m
+  

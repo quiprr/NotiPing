@@ -7,3 +7,4 @@ Maintainer: ItHertzSoGood
 Author: ItHertzSoGood
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, inetutils
+Installed-Size: 920

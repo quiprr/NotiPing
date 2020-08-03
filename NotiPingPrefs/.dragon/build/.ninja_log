@@ -1,0 +1,11 @@
+# ninja log v5
+1	156	1596431367318573146	.dragon/build/arm64e/NPISubPageController.m.o	7b6afae557c09236
+0	156	1596431367317229876	.dragon/build/arm64/NPIRootListController.m.o	d8c664934c804077
+0	156	1596431367318254116	.dragon/build/arm64/NPISubPageController.m.o	a26a8fe0bc5cdeae
+1	157	1596431367318279358	.dragon/build/arm64e/NPIRootListController.m.o	22eb67cb38b7a251
+156	309	1596431367474290042	.dragon/build/NotiPingPrefs.arm64	d9ed90659e6da6dd
+157	310	1596431367474451941	.dragon/build/NotiPingPrefs.arm64e	c9c8c14edf37627c
+310	322	1596431367491677672	.dragon/sign/.dragon/_/Library/PreferenceBundles/NotiPingPrefs.bundle/NotiPingPrefs.unsym	3ba8c8979f8e48a4
+322	342	1596431367511432536	.dragon/sign/.dragon/_/Library/PreferenceBundles/NotiPingPrefs.bundle/NotiPingPrefs.unsigned	46375774e49abd1f
+342	357	1596431367527062751	.dragon/_/Library/PreferenceBundles/NotiPingPrefs.bundle/NotiPingPrefs	a69186a5b0ee37f3
+0	13	0	stage	1b36d17b73edbdd8
