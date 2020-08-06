@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NotiPing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>dev.ametrine.notiping</string>
+			<key>key</key>
+			<string>enableTweak</string>
+			<key>label</key>
+			<string>Enable NotiPing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>1.0.0.1</string>
+			<key>defaults</key>
+			<string>dev.ametrine.notiping</string>
+			<key>key</key>
+			<string>ipAddress</string>
+			<key>label</key>
+			<string>IP Address:</string>
+			<key>placeholder</key>
+			<string>10.40.0.1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<integer>60</integer>
+			<key>defaults</key>
+			<string>dev.ametrine.notiping</string>
+			<key>key</key>
+			<string>timerDelay</string>
+			<key>label</key>
+			<string>Delay (seconds):</string>
+			<key>placeholder</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NPISubPageController</string>
+			<key>pageKey</key>
+			<string>Alert</string>
+			<key>label</key>
+			<string>Alert Settings</string>
+			<key>isController</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sbreload</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NPIDevPageController</string>
+			<key>pageKey</key>
+			<string>Developer</string>
+			<key>label</key>
+			<string>Developer</string>
+			<key>isController</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NotiPing</string>
+</dict>
+</plist>

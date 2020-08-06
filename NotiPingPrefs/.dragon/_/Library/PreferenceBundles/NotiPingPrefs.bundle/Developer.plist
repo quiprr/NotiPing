@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer Links</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>Service-GitHub.png</string>
+			<key>action</key>
+			<string>openGitHub</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>quiprr on Twitter</string>
+			<key>icon</key>
+			<string>Service-Twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>quiprr's Website</string>
+			<key>icon</key>
+			<string>Service-Website.png</string>
+			<key>action</key>
+			<string>openWebsite</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>quiprr's Reddit</string>
+			<key>icon</key>
+			<string>Service-Reddit.png</string>
+			<key>action</key>
+			<string>openReddit</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Special Thanks</string>
+			<key>action</key>
+			<string>specialThanks</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Developer</string>
+</dict>
+</plist>
