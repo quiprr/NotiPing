@@ -31,6 +31,7 @@ NSDictionary *rootDict;
 - (void)executePing {
 
     NSString *ipAddress = [rootDict objectForKey:@"ipAddress"];
+    NSString *alertText = [rootDict objectForKey:@"alertText"];
 
     NSTask *task = [[NSTask alloc] init];
     task.launchPath = @"/usr/bin/ping";
@@ -40,7 +41,7 @@ NSDictionary *rootDict;
 
     if (task.terminationStatus == 1) {
         UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"NotiPing"
-                           message:@"The server you specified did not give a response."
+                           message:alertText
                            preferredStyle:UIAlertControllerStyleAlert];
 
         UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Dismiss" style:UIAlertActionStyleDefault

@@ -14,8 +14,6 @@
 		<true/>
 		<key>label</key>
 		<string>NotiPing</string>
-		<key>icon</key>
-		<string>icon.jpg</string>
 	</dict>
 </dict>
 </plist>

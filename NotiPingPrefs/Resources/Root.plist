@@ -14,7 +14,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>dev.ametrine.notiping</string>
 			<key>key</key>
@@ -58,9 +58,19 @@
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NPISubPageController</string>
+			<key>pageKey</key>
+			<string>Alert</string>
 			<key>label</key>
-			<string>Apply Changes</string>
+			<string>Alert Settings</string>
+			<key>isController</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -68,53 +78,23 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>Respring</string>
+			<string>Apply Changes</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NPIDevPageController</string>
+			<key>pageKey</key>
+			<string>Developer</string>
 			<key>label</key>
 			<string>Developer</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>GitHub (sponsor!)</string>
-			<key>icon</key>
-			<string>Service-GitHub.png</string>
-			<key>action</key>
-			<string>openGitHub</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Twitter</string>
-			<key>icon</key>
-			<string>Service-Twitter.png</string>
-			<key>action</key>
-			<string>openTwitter</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Website</string>
-			<key>icon</key>
-			<string>Service-Website.png</string>
-			<key>action</key>
-			<string>openWebsite</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Reddit</string>
-			<key>icon</key>
-			<string>Service-Reddit.png</string>
-			<key>action</key>
-			<string>openReddit</string>
+			<key>isController</key>
+			<true/>
 		</dict>
 	</array>
 	<key>title</key>

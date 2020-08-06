@@ -1,13 +1,13 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "NPIRootListController.h"
-#import "NSTask.h"
+#import "NPISubPageController.h"
+#import "spawn.h"
 
-@implementation NPIRootListController
+@implementation NPISubPageController
 
 - (NSMutableArray *)specifiers {
     if (!_specifiers) {
-        _specifiers = [self loadSpecifiersFromPlistName:@"Root" target:self];
+        _specifiers = [self loadSpecifiersFromPlistName:@"Alert" target:self];
     }
     return _specifiers;
 }
@@ -30,25 +30,23 @@
     [dict writeToFile:@"/var/mobile/Library/Preferences/dev.ametrine.notiping.plist" atomically:YES];
 }
 
--(void)sbreload
+- (void)openGitHub
 {
-	UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"NotiPing"
-							message:@"Your settings have been applied.\n Would you like to respring now?"
-							preferredStyle:UIAlertControllerStyleActionSheet];
-
-		UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel
-		handler:^(UIAlertAction * action) {}];
-		UIAlertAction* yes = [UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDestructive
-		handler:^(UIAlertAction * action) {
-			NSTask *t = [[NSTask alloc] init];
-			[t setLaunchPath:@"usr/bin/sbreload"];
-			[t launch];
-		}];
-
-		[alert addAction:defaultAction];
-		[alert addAction:yes];
-		[self presentViewController:alert animated:YES completion:nil];
-
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ItHertzSoGood/notiping"] options:@{} completionHandler:nil];
 }
 
+- (void)openTwitter
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/quiprr"] options:@{} completionHandler:nil];
+}
+
+- (void)openWebsite
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://ametrine.dev/"] options:@{} completionHandler:nil];
+}
+
+- (void)openReddit
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://reddit.com/u/quiprr"] options:@{} completionHandler:nil];
+}
 @end

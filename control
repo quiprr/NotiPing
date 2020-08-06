@@ -1,9 +1,9 @@
 Package: dev.ametrine.notiping
 Name: NotiPing
-Version: 1.0.1
+Version: 1.0.3b1
 Architecture: iphoneos-arm
 Description: Get notified when a server goes down!
 Maintainer: ItHertzSoGood
 Author: ItHertzSoGood
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, inetutils
+Depends: mobilesubstrate, preferenceloader
