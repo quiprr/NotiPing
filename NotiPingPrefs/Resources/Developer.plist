@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Developer Links</string>
+			<string>Links</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -24,7 +24,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>quiprr on Twitter</string>
+			<string>Twitter</string>
 			<key>icon</key>
 			<string>Service-Twitter.png</string>
 			<key>action</key>
@@ -34,7 +34,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>quiprr's Website</string>
+			<string>Website</string>
 			<key>icon</key>
 			<string>Service-Website.png</string>
 			<key>action</key>
@@ -44,11 +44,31 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>quiprr's Reddit</string>
+			<string>Reddit</string>
 			<key>icon</key>
 			<string>Service-Reddit.png</string>
 			<key>action</key>
 			<string>openReddit</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Discord Server</string>
+			<key>icon</key>
+			<string>Service-Discord.png</string>
+			<key>action</key>
+			<string>openDiscord</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Consider Donating</string>
+			<key>icon</key>
+			<string>Service-PayPal.png</string>
+			<key>action</key>
+			<string>openPayPal</string>
 		</dict>
 		<dict>
 			<key>cell</key>

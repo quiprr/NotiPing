@@ -50,10 +50,20 @@
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://reddit.com/u/quiprr"] options:@{} completionHandler:nil];
 }
 
+- (void)openPayPal
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://paypal.me/quiprr"] options:@{} completionHandler:nil];
+}
+
+- (void)openDiscord
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://discord.gg/MA7NQJd"] options:@{} completionHandler:nil];
+}
+
 - (void)specialThanks
 {
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Special Thanks"
-                           message:@"@CaptInc - help with the entire tweak\n@burrit0z - alert features to be implemented"
+                           message:@"@CaptInc - help with the entire tweak\n@kritanta - help with DragonBuild"
                            preferredStyle:UIAlertControllerStyleAlert];
 
         UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Dismiss" style:UIAlertActionStyleDefault
@@ -62,4 +72,5 @@
         [alert addAction:defaultAction];
         [self presentViewController:alert animated:YES completion:nil];
 }
+
 @end
